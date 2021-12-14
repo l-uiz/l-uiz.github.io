@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(77, 77, 77);
+}
+
+.container {
+    border: black solid 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 900px;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    display: block;
+    background-image: url(fire.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    box-shadow: rgb(48, 48, 48) 2px 4px;
+    transition: ease-out .2s;
+}
+
+.letreiro {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredientes, .receita {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    display: block;
+}
+
+#texto, #titulo {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.container:hover {
+    cursor: default;
+}
