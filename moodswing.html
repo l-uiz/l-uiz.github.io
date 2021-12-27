@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script>
+            function raiva(){
+            document.getElementById('image').src='raiva.png'
+            document.getElementById('image').style.width=400;
+        }
+            function tristeza(){
+            document.getElementById('image').src='tristeza.png'
+            document.getElementById('image').style.width=400;
+        }
+        </script>
+        <style>
+            button{
+                cursor: pointer;
+            }
+            #image{
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                
+            }
+            body {
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body id="main">
+        <button id="raiva" onclick="raiva()">raiva</button>
+        <button id="tristeza" onclick="tristeza()">tristeza</button>
+        <img id="image" src="raiva.png">
+    </body>
+</html>
