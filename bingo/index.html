@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Bingo TGA 2022</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class  ="bingo">
+            <div class="bingo-item er"><span>Elden Ring vencedor GOTY</span></div>
+            <div class="bingo-item pL"><span>Project L ou MMO da Riot</span></div>
+            <div class="bingo-item sT"><span>Starfield</span></div>
+            <div class="bingo-item hk"><span>Jogo novo do Hideo Kojima + Xbox</span> </div>
+            <div class="bingo-item bb"><span>Bloodborne PC/Remaster</span></div> 
+            <div class="bingo-item nin"><span>Outro jogo da Nintendo além do Zelda</span></div>
+            <div class="bingo-item er"><span>DLC Elden Ring</span></div>
+            <div class="bingo-item aw"><span>Alan Wake 2</span></div>
+            <div class="bingo-item t8"><span>Tekken 8</span></div>
+            <div class="bingo-item xb"><span>Xbox anunciar algum jogo</span></div>
+            <div class="bingo-item es"><span>Elder Scrolls 6</span></div>
+            <div class="bingo-item fa"><span>Algum famoso aparecer</span></div>
+            <div class="bingo-item tk"><span>Zelda BoTW 2 (Tears of the Kingdom)</span></div>
+            <div class="bingo-item mcl"><span>Minecraft Legends / Dungeons DLC</span></div>
+            <div class="bingo-item pr"><span>The Sims 5</span></div>
+            <div class="bingo-item hw"><span>Hogwarts Legacy</span></div>
+            <div class="bingo-item sf"><span>Street Fighter 6</span></div>
+            <div class="bingo-item mf"><span>Filme do Mario</span></div>
+            <div class="bingo-item d4"><span>Diablo 4</span></div>
+            <div class="bingo-item stw"><span>Jogo StarWars</span></div>
+            <div class="bingo-item sk4"><span>Skate 4</span></div>
+            <div class="bingo-item sfr"><span>DLC Sonic Frontiers</span></div>
+            <div class="bingo-item gow"><span>God of War vencedor do GOTY</span></div>
+            <div class="bingo-item mg"><span>Jogo da Marvel</span></div>
+            <div class="bingo-item ff"><span>Final Fantasy XVI (16)</span></div>
+        </div>
+    </body>
+    <script>
+        items = document.getElementsByClassName("bingo-item")
+        for (let i = 0; i < items.length; i++) {
+        
+            items[i].onclick = function() {
+                
+                if (items[i].getAttribute("id") === "check") {
+                    items[i].removeAttribute("id")
+                } else {
+                    items[i].setAttribute("id", "check")
+                    
+                }
+            }
+        }
+    </script>
+</html>

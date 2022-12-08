@@ -1,0 +1,156 @@
+:root {
+    background-color: #2c2a33;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: monospace;
+    color: white;
+}
+
+.bingo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    width: 550;
+    height: 550;
+}
+
+.bingo-item {
+    width: 100px;
+    height: 100px;
+    background-color: #242424;
+    place-self: center;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 16;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    text-shadow: black 2px 2px 3px;
+    transition: ease 100ms;
+}
+
+#check {
+    background-image: url(assets/cavalo.gif);
+    transition: ease-in 150ms;
+}
+
+.bingo-item:hover {
+    cursor: pointer;
+}
+
+* {
+    user-select: none;
+}
+
+
+span {
+    background-color: rgba(0, 0, 0, 0.5) ;
+    width: 100%;
+
+}
+
+.er {
+    background-image: url(assets/er.jpg);
+}
+
+.pL {
+    background-image: url(assets/pL.jpg);
+}
+
+.sT {
+    background-image: url(assets/sT.jpg);
+}
+
+.hk {
+    background-image: url(assets/hk.jpg);
+}
+
+.bb {
+    background-image: url(assets/bb.webp);
+}
+
+.nin {
+    background-image: url(assets/nin.jpg);
+}
+
+.aw {
+    background-image: url(assets/aw.jpg);
+}
+
+.t8 {
+    background-image: url(assets/t8.jpg);
+}
+.xb {
+    background-image: url(assets/xb.png);
+}
+
+.es {
+    background-image: url(assets/es6.jpg);
+}
+
+.fa {
+    background-image: url(assets/fa.jpg);
+}
+
+.tk {
+    background-image: url(assets/tk.webp);
+}
+
+.mcl {
+    background-image: url(assets/mcl.jpg);
+}
+
+.pr {
+    background-image: url(assets/pR.jpg);
+}
+
+.hw {
+    background-image: url(assets/hw.webp);
+}
+
+.sf {
+    background-image: url(assets/sf.webp);
+}
+
+.mf {
+    background-image: url(assets/mf.jpg);
+}
+
+.d4 {
+    background-image: url(assets/d4.jpg);
+}
+
+.stw {
+    background-image: url(assets/stw.jpg);
+}
+
+.sk4 {
+    background-image: url(assets/s4.jpg);
+}
+
+.sfr {
+    background-image: url(assets/sfw.jpg);
+}
+
+.gow {
+    background-image: url(assets/gow.webp);
+}
+
+.mg {
+    background-image: url(assets/mg.webp);
+}
+
+.ff {
+    background-image: url(assets/ff.jpg);
+}
